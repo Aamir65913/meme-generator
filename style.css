@@ -1,0 +1,48 @@
+/* This styles the whole page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles the main container */
+.container {
+    margin-top: 50px;
+}
+
+/* Styles the meme display area */
+.meme-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Styles the image */
+.meme-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Styles the text that appears on the meme */
+.meme-text {
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Positions the top text */
+.top-text {
+    top: 10px;
+}
+
+/* Positions the bottom text */
+.bottom-text {
+    bottom: 10px;
+}
